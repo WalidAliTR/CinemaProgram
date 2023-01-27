@@ -17,7 +17,7 @@ namespace CinemaProject
         {
             InitializeComponent();
         }
-        public static string sqlcon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kg462\Desktop\Kuroi Seidan Project\CinemaProject\CinemaProject\ProjectDB.mdf;Integrated Security=True";
+        public static string sqlcon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kg462\Desktop\New folder\CinemaProgram\CinemaProject\ProjectDB.mdf;Integrated Security=True";
         SqlConnection con = new SqlConnection(sqlcon);
         SqlCommand cmd;
         public static string UserType,userid;
